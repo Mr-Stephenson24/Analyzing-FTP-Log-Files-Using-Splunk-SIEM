@@ -22,9 +22,6 @@ Before starting the project, ensure the following:
 - Log in to the Splunk web interface.
 - Navigate to **Settings** > **Add Data**.
 - Select **Upload** as the data input method.
-  
-!https://github.com/Mr-Stephenson24/Analyzing-DNS-Log-Files-Using-Splunk-SIEM/blob/main/Screenshot%202025-07-06%20192828.png
-
 
 ### 3. Choose File
 - Click on **Select File** and choose the sample FTP log file you prepared earlier.
@@ -45,6 +42,8 @@ Before starting the project, ensure the following:
 ### 7. Verify Upload
 - After uploading, navigate to the search bar in the Splunk interface.
 - Run a search query to verify that the uploaded FTP events are visible.
+
+!https://github.com/Mr-Stephenson24/Analyzing-DNS-Log-Files-Using-Splunk-SIEM/blob/main/Screenshot%202025-07-06%20192828.png
 
 
 ## Steps to Analyze FTP Log Files in Splunk SIEM
