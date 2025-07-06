@@ -61,13 +61,13 @@ Explanation:
 (?<timestamp>\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}): Matches and captures the timestamp in the format "YYYY-MM-DD HH:MM:SS".
 .*?: Matches any character (except for line terminators) as few times as possible.
 
-'''(?<source_ip>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}): Matches and captures the source IP address.
+'(?<source_ip>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}): Matches and captures the source IP address.
 
-'''(?<username>\w+): Matches and captures the username (assuming it consists of alphanumeric characters)
-.
-'''(?<command>[A-Z]+): Matches and captures the FTP command (assuming it consists of uppercase letters).
+'(?<username>\w+): Matches and captures the username (assuming it consists of alphanumeric characters)
 
-'''(?<file_path>\/[\w\/.-]+): Matches and captures the file path (assuming it starts with "/" and can contain alphanumeric characters, "/", ".", and "-").
+.'(?<command>[A-Z]+): Matches and captures the FTP command (assuming it consists of uppercase letters).
+
+'(?<file_path>\/[\w\/.-]+): Matches and captures the file path (assuming it starts with "/" and can contain alphanumeric characters, "/", ".", and "-").
 
 4. Detect Anomalies
    
