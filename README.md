@@ -58,8 +58,8 @@ Explanation:
 Explanation:
 
 ^: Start of the line.
-(?<timestamp>\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}): Matches and captures the timestamp in the format "YYYY-MM-DD HH:MM:SS".
-.*?: Matches any character (except for line terminators) as few times as possible.
+'(?<timestamp>\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}): Matches and captures the timestamp in the format "YYYY-MM-DD HH:MM:SS".
+.*?: Matches any character (except for line terminators)' as few times as possible.
 
 (?<source_ip>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}): Matches and captures the source IP address.
 
