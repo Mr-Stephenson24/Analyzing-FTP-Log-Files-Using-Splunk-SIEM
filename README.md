@@ -55,25 +55,28 @@ Before starting the project, ensure the following:
 "
 Explanation:
 
+Explanation:
+
 ^: Start of the line.
 (?<timestamp>\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}): Matches and captures the timestamp in the format "YYYY-MM-DD HH:MM:SS".
 .*?: Matches any character (except for line terminators) as few times as possible.
+
 (?<source_ip>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}): Matches and captures the source IP address.
-(?<username>\w+): Matches and captures the username (assuming it consists of alphanumeric characters).
+
+(?<username>\w+): Matches and captures the username (assuming it consists of alphanumeric characters)
+.
 (?<command>[A-Z]+): Matches and captures the FTP command (assuming it consists of uppercase letters).
+
 (?<file_path>\/[\w\/.-]+): Matches and captures the file path (assuming it starts with "/" and can contain alphanumeric characters, "/", ".", and "-").
-3. Analyze File Transfer Activity
-Determine the frequency and volume of file transfers.
-Identify top users or IP addresses involved in file transfers.
-Analyze the types of files being transferred (e.g., documents, executables, archives).
-Use stats command to calculate statistics such as count, sum, avg, etc.
+
 4. Detect Anomalies
+   
 Look for unusual patterns in file transfer activity.
 Analyze sudden spikes or drops in file transfer volume.
 Investigate file transfers to or from suspicious IP addresses.
 Use statistical analysis or machine learning models to detect anomalies.
 
-5. Monitor User Behavior
+6. Monitor User Behavior
    
 Monitor user behavior during file transfers.
 Identify users with multiple failed login attempts or unauthorized access attempts.
