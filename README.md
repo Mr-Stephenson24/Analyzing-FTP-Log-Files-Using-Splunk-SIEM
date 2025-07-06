@@ -22,7 +22,10 @@ Before starting the project, ensure the following:
 - Log in to the Splunk web interface.
 - Navigate to **Settings** > **Add Data**.
 - Select **Upload** as the data input method.
+- 
 !https://github.com/Mr-Stephenson24/Analyzing-DNS-Log-Files-Using-Splunk-SIEM/blob/main/Screenshot%202025-07-06%20192828.png
+
+
 ### 3. Choose File
 - Click on **Select File** and choose the sample FTP log file you prepared earlier.
 
